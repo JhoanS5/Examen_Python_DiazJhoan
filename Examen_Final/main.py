@@ -1,6 +1,5 @@
 from interfaz import menu_principal, menu_opcion1, menu_opcion2, menu_opcion3
 
-
 #*CODE MAIN*#
 
 while True:
@@ -19,6 +18,8 @@ while True:
                         break
                     else:
                         print("Opcion invalida, vuelve a intentarlo")
+                        break
+
                 except ValueError:
                     print("Error al ingresar el valor requerido")
 
@@ -34,6 +35,8 @@ while True:
                         break
                     else:
                         print("Opcion invalida, vuelve a intentarlo")
+                        break
+
                 except ValueError:
                     print("Error al ingresar el valor requerido")
         
